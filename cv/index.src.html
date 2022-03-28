@@ -10,7 +10,6 @@
 .. hidetitle: True
 -->
 <body>
-
 <h1>Education</h1>
 
 <hr>
@@ -49,6 +48,64 @@
 
 <hr>
 
+<h1>Publications</h1>
+<ul>
+	<li style="padding-bottom: 1em;">
+		<strong>Pablo Cervantes</strong>, Yusuke Sekikawa, and Shinoda Koichi Sato, Ikuro. Implicit neural representations for variable length human motion generation. arXiv preprint arXiv:2203.13694, 2022.<br>
+		[<a href="javascript:void(0)" onclick="
+		(function(target, id) {
+			if ($('#' + id).css('display') == 'block')
+			{
+				$('#' + id).hide('fast');
+				$(target).text('BibTeX▼')
+			}
+			else
+			{
+				$('#' + id).show('fast');
+				$(target).text('BibTeX▲')
+			}
+			})(this, 'bibtex-motion-2022');">BibTeX▼</a>]
+		[<a href="https://arxiv.org/abs/2203.13694">arxiv</a>] 
+		<div id='bibtex-motion-2022' style="display:none"><pre>
+@article{Cervantes2022,
+	url = {https://arxiv.org/abs/2203.13694},
+	author = {Cervantes, Pablo and Sekikawa, Yusuke and Sato, Ikuro, Shinoda, Koichi},
+	title = {Implicit Neural Representations for Variable Length Human Motion Generation},
+	journal={arXiv preprint arXiv:2203.13694},
+	year = {2022}
+}
+		</pre></div>
+	</li>
+	<li style="padding-bottom: 1em;">
+		<strong>Pablo Cervantes</strong>, Yusuke Sekikawa, Ikuro Sato, Koichi Shinoda. Method of machine learning for sequential data, Japanese patent 2021-082514, filed May 14th, 2021, Patent pending.<br>
+	</li>
+	<li style="padding-bottom: 1em;">
+		<strong>Pablo Cervantes</strong> and Masaki Inoue. Performance evaluation of graph-reduction in SLAM through pose rejection. In <em>2017 56th Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE)</em>, pp 644-647, 2017.<br>
+		[<a href="javascript:void(0)" onclick="
+		(function(target, id) {
+		if ($('#' + id).css('display') == 'block')
+		{
+			$('#' + id).hide('fast');
+			$(target).text('BibTeX▼')
+		}
+		else
+		{
+			$('#' + id).show('fast');
+			$(target).text('BibTeX▲')
+		}
+		})(this, 'SLAM-2017');">BibTeX▼</a>]
+		<div id="SLAM-2017" style="display:none"><pre>
+@inproceedings{Cervantes2017,
+	author={Cervantes, Pablo and Inoue, Masaki},
+	booktitle={2017 56th Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE)}, 
+	title={Performance evaluation of graph-reduction in SLAM through pose rejection}, 
+	year={2017},
+	pages={644-647},
+}
+		</pre></div>
+	</li>
+</ul>
+
 <div class="text_center">
 <p>
 	<span class="fa-stack fa-2x">
@@ -69,4 +126,22 @@
 		</a>
 	</span>
 </p>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
 </body>
